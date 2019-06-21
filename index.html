@@ -30,7 +30,7 @@
             
         function displayGameInfo() {
             var game = $(this).attr("data-name");
-            var queryURL = "https://www.omdbapi.com/?t=" + game + "&apikey=trilogy";
+            var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=" + game + "&apikey=5KZDAjtUy2sVI1b6KIs3blyHtx4vUAK9";
     
             $.ajax({
               url: queryURL,
